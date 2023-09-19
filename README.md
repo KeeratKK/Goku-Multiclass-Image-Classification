@@ -1,4 +1,6 @@
-# Goku-Multiclass-Image-Classification (Learned from and used code from Udacity course "Intro To Tensorflow for Deep Learning" under Apache License Version 2.0) 
+# Goku-Multiclass-Image-Classification 
+(Learned from and used code from Udacity course "Intro To Tensorflow for Deep Learning" under Apache License Version 2.0) 
+
 With this project, I first scraped hundreds of images of the character in three different forms and created a dataset. The dataset contained 1000+ images taken from the web. From there, I split the data such that 80% of the images were used for training and 20% were for validation.
 
 Now a problem that I encountered during the dataset creation was that I simply scraped them from google images. As a result, many of the images were very similar and had no variation. To try to fix this, I used image augmentation and a 20% chance of dropout (when neurons are disconnected from the nueral network and thus force the model to rely on all neurons as balanced as possible). 
